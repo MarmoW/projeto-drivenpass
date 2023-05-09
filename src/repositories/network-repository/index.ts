@@ -12,7 +12,7 @@ async function createNetwork(data: Prisma.NetworkUncheckedCreateInput) {
 async function findById(id: number, select?: Prisma.UserSelect) {
   const params: Prisma.NetworkFindUniqueArgs = {
     where: {
-      id,
+      id: id,
     },
   };
 

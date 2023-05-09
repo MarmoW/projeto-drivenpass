@@ -26,7 +26,7 @@ async function CheckIfTitleIsUnique(userId: number, title: string) {
 async function locateNetwork(userId: number, networkId: number) {
     const findnetwork = await networkRepository.findById(networkId);
    
-    if (!findnetwork || findnetwork.userId !== userId) {
+    if (!findnetwork || findnetwork.userId != userId) {
       throw notFoundError();
     }
   

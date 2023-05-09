@@ -129,7 +129,7 @@ describe('GET /networks/:networksId', () => {
   
             const network = await createNetwork(user);
       
-            const response = await server.get('/network').set('Authorization', `Bearer ${token}`);       
+            const response = await server.get('/networks').set('Authorization', `Bearer ${token}`);       
             
             expect(response.status).toEqual(httpStatus.OK);
 
@@ -278,7 +278,7 @@ describe('DELETE /credentials/:credentialId', () => {
 
             const network = await createNetwork(user);
         
-            const response = await server.delete(`/credentials/${network.id}`).set('Authorization', `Bearer ${token}`);
+            const response = await server.delete(`/networks/${network.id}`).set('Authorization', `Bearer ${token}`);
             expect(response.status).toBe(httpStatus.ACCEPTED)
     })
     
