@@ -51,7 +51,7 @@ async function CheckIfTitleIsUnique(userId: number, title: string) {
 
 async function credentialDelete(userId: number, credentialId: number) {
   const credential = await credentialRepository.findById(credentialId);
-  if (credential.userId !== userId ||  !credential ) {
+  if (!credential || credential.userId !== userId) {
     throw notFoundError();
   }
 

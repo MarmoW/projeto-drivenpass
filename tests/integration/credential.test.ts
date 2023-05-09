@@ -233,8 +233,8 @@ describe('DELETE /credentials/:credentialId', () => {
     
         expect(response.status).toBe(httpStatus.UNAUTHORIZED);
       });
-    /*
-    it('should respond with status 404 if the credential isnt found', async () => {
+    
+    it('should respond with status 404 if the doesnt exist', async () => {
         const user = await createUser();
         const token = await generateValidToken(user);
     
@@ -242,7 +242,8 @@ describe('DELETE /credentials/:credentialId', () => {
     
         expect(response.status).toBe(httpStatus.NOT_FOUND);
       });
-    */
+    
+
     it('should respond with status 404 if the credential exists, but belongs to another user', async () => {
         const user = await createUser();
         const token = await generateValidToken(user);

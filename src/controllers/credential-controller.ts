@@ -2,6 +2,7 @@ import httpStatus from 'http-status';
 import { NextFunction, Response } from 'express';
 import credentialService, { CreateCredentialParams } from '@/services/credentials-service';
 import { AuthenticatedRequest } from '@/middlewares';
+import { nextTick } from 'process';
 
 export async function credentialsList(req: AuthenticatedRequest, res: Response, next: NextFunction) {
   const { userId } = req;
@@ -21,12 +22,13 @@ export async function credentialsLocate(req: AuthenticatedRequest, res: Response
   try {
     const findcredentials = await credentialService.locateCredential(userId, parseInt(credentialId));
     return res.status(httpStatus.OK).send(findcredentials);
+
   } catch (err) {
     next(err);
   }
 }
 
-export async function credentialsStore(req: AuthenticatedRequest, res: Response) {
+export async function credentialsStore(req: AuthenticatedRequest, res: Response, next: NextFunction) {
   const { title, url, username, password } = req.body as CreateCredentialParams;
   const { userId } = req;
 
@@ -36,12 +38,11 @@ export async function credentialsStore(req: AuthenticatedRequest, res: Response)
       credentialId: newcredential.id,
     });
   } catch (err) {
-    if (err.name === 'DuplicatedTitleError') {
-      return res.status(httpStatus.CONFLICT).send(err);
+    next(err);
     }
-    return res.status(httpStatus.BAD_REQUEST).send(err);
+    
   }
-}
+
 
 export async function credentialsDelete(req: AuthenticatedRequest, res: Response, next: NextFunction) {
   const { userId } = req;

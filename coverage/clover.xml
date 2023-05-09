@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683648343721" clover="3.2.0">
-  <project timestamp="1683648343721" name="All files">
-    <metrics statements="381" coveredstatements="335" conditionals="44" coveredconditionals="27" methods="71" coveredmethods="60" elements="496" coveredelements="422" complexity="0" loc="381" ncloc="381" packages="17" files="47" classes="47"/>
+<coverage generated="1683652453938" clover="3.2.0">
+  <project timestamp="1683652453938" name="All files">
+    <metrics statements="379" coveredstatements="337" conditionals="43" coveredconditionals="29" methods="71" coveredmethods="61" elements="493" coveredelements="427" complexity="0" loc="379" ncloc="379" packages="17" files="47" classes="47"/>
     <package name="src">
       <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="app.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\app.ts">
@@ -59,7 +59,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="84" coveredstatements="76" conditionals="3" coveredconditionals="1" methods="10" coveredmethods="10"/>
+      <metrics statements="80" coveredstatements="76" conditionals="1" coveredconditionals="1" methods="10" coveredmethods="10"/>
       <file name="authentication-controller.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\controllers\authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="7" type="stmt"/>
@@ -72,38 +72,36 @@
         <line num="13" count="3" type="stmt"/>
       </file>
       <file name="credential-controller.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\controllers\credential-controller.ts">
-        <metrics statements="31" coveredstatements="27" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="29" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
         <line num="10" count="4" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="17" count="7" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="46" count="7" type="stmt"/>
-        <line num="47" count="3" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
         <line num="48" count="3" type="stmt"/>
-        <line num="50" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
         <line num="51" count="3" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
       </file>
       <file name="index.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\controllers\index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -113,38 +111,36 @@
         <line num="4" count="7" type="stmt"/>
       </file>
       <file name="network-controller.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\controllers\network-controller.ts">
-        <metrics statements="31" coveredstatements="28" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="29" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="17" count="7" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
         <line num="31" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="39" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="46" count="7" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="7" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
       </file>
       <file name="users-controller.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\controllers\users-controller.ts">
         <metrics statements="10" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
@@ -201,7 +197,7 @@
       <file name="not-found-error.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\errors\not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="7" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
       <file name="request-error.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\errors\request-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -215,7 +211,7 @@
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="47" coveredstatements="41" conditionals="13" coveredconditionals="7" methods="8" coveredmethods="7"/>
+      <metrics statements="49" coveredstatements="41" conditionals="14" coveredconditionals="8" methods="8" coveredmethods="7"/>
       <file name="authentication-middleware.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\middlewares\authentication-middleware.ts">
         <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="2" count="7" type="stmt"/>
@@ -223,37 +219,39 @@
         <line num="5" count="7" type="stmt"/>
         <line num="6" count="7" type="stmt"/>
         <line num="8" count="7" type="stmt"/>
-        <line num="9" count="40" type="stmt"/>
-        <line num="10" count="40" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="32" type="stmt"/>
-        <line num="13" count="32" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="32" type="stmt"/>
-        <line num="16" count="32" type="stmt"/>
-        <line num="18" count="24" type="stmt"/>
-        <line num="23" count="24" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="16" type="stmt"/>
-        <line num="27" count="16" type="stmt"/>
+        <line num="9" count="42" type="stmt"/>
+        <line num="10" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="34" type="stmt"/>
+        <line num="13" count="34" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="34" type="stmt"/>
+        <line num="16" count="34" type="stmt"/>
+        <line num="18" count="26" type="stmt"/>
+        <line num="23" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="18" type="stmt"/>
+        <line num="27" count="18" type="stmt"/>
         <line num="29" count="8" type="stmt"/>
         <line num="34" count="24" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\middlewares\error-handling-middleware.ts">
-        <metrics statements="16" coveredstatements="11" conditionals="8" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="18" coveredstatements="11" conditionals="9" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="2" count="7" type="stmt"/>
         <line num="5" count="7" type="stmt"/>
-        <line num="11" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="9" type="cond" truecount="2" falsecount="1"/>
+        <line num="17" count="10" type="cond" truecount="2" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="23" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="29" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="35" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="8" type="stmt"/>
+        <line num="35" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="9" type="stmt"/>
         <line num="41" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="0" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="48" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\middlewares\index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -294,18 +292,18 @@
       </file>
     </package>
     <package name="src.repositories.network-repository">
-      <metrics statements="11" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <metrics statements="11" coveredstatements="10" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <file name="index.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\repositories\network-repository\index.ts">
-        <metrics statements="11" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <metrics statements="11" coveredstatements="10" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="2" count="7" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="19" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
         <line num="27" count="2" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="52" count="7" type="stmt"/>
         <line num="60" count="7" type="stmt"/>
       </file>
@@ -484,16 +482,16 @@
         <line num="48" count="0" type="stmt"/>
         <line num="53" count="3" type="stmt"/>
         <line num="54" count="3" type="cond" truecount="3" falsecount="0"/>
-        <line num="55" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
         <line num="65" count="7" type="stmt"/>
         <line num="72" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.services.networks-service">
-      <metrics statements="25" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
+      <metrics statements="25" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
       <file name="index.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\services\networks-service\index.ts">
-        <metrics statements="25" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
+        <metrics statements="25" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
         <line num="2" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
@@ -504,21 +502,21 @@
         <line num="20" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="21" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="3" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="40" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="cond" truecount="2" falsecount="1"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="61" count="7" type="stmt"/>
-        <line num="68" count="7" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="41" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="69" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.services.users-service">
@@ -552,7 +550,7 @@
         <line num="1" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="6" count="21" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
         <line num="13" count="7" type="stmt"/>
       </file>
       <file name="prisma-utils.ts" path="C:\Users\marmo\Desktop\driven\Modulo5\projeto-drivenpass\src\utils\prisma-utils.ts">
